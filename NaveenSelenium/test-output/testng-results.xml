@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25743" started-at="2019-04-21T06:25:51Z" finished-at="2019-04-21T06:26:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25743" started-at="2019-04-21T06:25:51Z" finished-at="2019-04-21T06:26:17Z">
+      <class name="com.project.NaveenSelenium.TC_007">
+        <test-method status="PASS" signature="startprocess()[pri:0, instance:com.project.NaveenSelenium.TC_007@735f7ae5]" name="startprocess" is-config="true" duration-ms="14194" started-at="2019-04-21T11:55:51Z" finished-at="2019-04-21T11:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startprocess -->
+        <test-method status="PASS" signature="automationRegistration()[pri:0, instance:com.project.NaveenSelenium.TC_007@735f7ae5]" name="automationRegistration" duration-ms="11515" started-at="2019-04-21T11:56:05Z" finished-at="2019-04-21T11:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationRegistration -->
+        <test-method status="PASS" signature="endprocess()[pri:0, instance:com.project.NaveenSelenium.TC_007@735f7ae5]" name="endprocess" is-config="true" duration-ms="0" started-at="2019-04-21T11:56:17Z" finished-at="2019-04-21T11:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endprocess -->
+      </class> <!-- com.project.NaveenSelenium.TC_007 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
