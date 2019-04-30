@@ -2,3 +2,4 @@ com\project\NaveenSelenium\TC_001.class
 com\project\NaveenSelenium\BasePage.class
 com\project\NaveenSelenium\PageUI.class
 com\project\NaveenSelenium\ExcelAPI.class
+com\project\NaveenSelenium\ExtentManager.class

@@ -25,11 +25,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class BasePage extends ExtentManager {
 	private static final Logger log = Logger.getLogger(BasePage.class.getName());
 
 	public static WebDriver driver;
 	public static final String path = "./data.properties";
+	
+	//Extent Report Object
+	public ExtentReports rep = ExtentManager.getInstance();
+	public ExtentTest test;
+	
 	
 	public static String loadData(String key) throws Exception {
 		Properties p = new Properties();
